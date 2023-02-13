@@ -10,6 +10,7 @@ import SwiftUI
 struct MainView: View {
      //Body comment
     
+    //test new comment
     var body: some View {
         VStack {
             Image(systemName: "globe")
