@@ -12,13 +12,16 @@ struct MainView: View {
     
     //test new comment
     var body: some View {
-        VStack {
+        ZStack {
+            
+            Color.red.ignoresSafeArea(.all)
+            
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("This is a test")
+            Text("This is a test").padding()
         }
-        .padding()
+        
     }
 }
 
